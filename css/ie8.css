@@ -1,0 +1,40 @@
+fieldset.audios{
+	display: none;
+}
+p.navegador{
+	display: inline-block;
+	margin-top: 2em;
+}
+fieldset.audios{
+	margin-top: 0;
+	display: inline-block;
+	vertical-align: top;
+	border-width: 0;
+	margin-left: 0;
+}
+legend{
+	display: none;
+}
+div.centrado{
+	margin: 0 auto;
+}
+h3.audios{
+	text-align: center;
+}
+audio{
+	display: table;
+	margin: 0 auto;
+	float: none;
+}
+fieldset.videos{
+	border-width: 0;
+	width: 100%;
+}
+div.caja{
+	display: none;
+}
+div.noVideo{
+	display: table;
+	float: none;
+	margin: 1em auto;
+}

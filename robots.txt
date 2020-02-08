@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /edu/
+Sitemap: http://www.edusklar.es/sitemap.xml

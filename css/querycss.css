@@ -1,0 +1,728 @@
+/* smartphones, iPhone, portrait 480x320 phones */
+@media (max-width:480px) { 
+body.index {
+  background-image: url(../img/index2.jpg);
+}
+body.indexA {
+  background-image: url(../img/index2.jpg);
+}  
+body.edu {
+    background: url(../img/eduB3.jpg);
+    background-attachment: scroll;
+}
+div.Sno{
+  display: none;
+}
+
+
+/*
+ACORDEON
+*/
+nav.menu {/*MARC*/
+    width: 228px;
+    height: 153px;
+}
+
+nav.menu ul {/*tamaño width acordeon*/
+    height: 139px;
+    width: 210px;
+
+}
+nav.menu ul:before {
+    content: "";
+    top: 60px;
+    width: 216px;
+}
+nav.menu ul:hover:before {
+    color: black;
+}
+div#index, div#biografia, div#agenda, div#contacto, div#galeria, div#media {/*ASI MUESTRA LA IMAGEN*/
+    background:url(../img/acordeon/fa.png);
+    background-size: contain;
+    height: 139px;
+    width: 238px;
+}
+nav.menu ul li {
+    width: 20px;
+    height: 139px;
+
+}
+nav.menu ul li a {
+    height: 20px;
+    width: 121px;
+}
+nav.menu ul li:hover {
+    width: 45%;
+}
+nav.menu ul li:hover a {
+    text-shadow: 1px 0 0 rgba(0, 0, 0, 0.25);
+    background: #006699;
+    color: #ccc;
+}
+
+/*
+AGENDA
+*/
+article.agendaAD{
+  width: 90%;
+}
+div.blockAD{
+  margin-bottom: 2em;
+}
+article.agendaAD div.blockAD div.imagenAD{
+  display: block;
+  vertical-align: top;
+  margin: 0 auto;
+  padding-top: 1em;
+  float:none;
+}
+article.agendaAD div.blockAD div.eduN{
+  display: none;
+}
+article.agendaA{
+  display: inline-block;
+  float: right;
+  width: 90%;
+}
+article.agendaA div.blockA{
+  background: #FFFFFF;
+  display: block;
+  vertical-align: top;
+  margin: 3em 4em 0 0;
+  width: 83.5%;
+}
+article.agendaA div.blockA{
+  margin: 2em 0 0 0;
+  padding: 0.7em;
+}
+article.agendaA div.titulo{
+  display:none;
+}
+article.agendaA div.blockA div.textA p{
+  line-height: 1.4em;
+  font-size: 1em;
+  text-align: left;
+}
+article.agendaA div.blockA div.textA a h3{
+  font-size: 1em;
+  text-align: left;
+}
+
+/*
+BIOGRAFIA
+*/
+section.contenedor{
+  display: block;
+  max-width: 90%;
+  margin: 0 auto;
+  padding-top: 0;
+}
+div.nombreB h1{
+  font-size: 1.5em;
+  margin-top: 1.5em;
+  margin-left: 0;
+  padding-bottom: 0;
+  width: 100%;
+}
+article.edu{
+  margin-right: 0;
+}
+
+
+/*
+AUDIOS
+*/
+fieldset.audios{
+	float: none;
+  display: block;
+  vertical-align: middle;
+  margin: 0 auto;
+  padding: 1em;
+  margin-bottom: 2em;
+}
+
+/*
+VIDEOS
+*/
+fieldset.videos{
+  display: block;
+  vertical-align: middle;
+  margin: 0 auto;
+  padding: 0; 
+}
+.caja{
+  margin-left: 1.5em;
+  margin-right: -5.8em;
+}
+.item img{
+  width: 280px;
+  height: 90px;
+}
+.item .informacion{
+  height: 80px;
+  width: 260px;
+}
+
+/*
+ENSEMBLES
+*/
+header.fondoTM{
+  margin-left: 30%;
+  margin-top: 0.5em;
+}
+
+img.trio{
+  float: none;
+  width: 90%;
+  height: 90%;
+  margin-right: 5%;
+  margin-bottom: 1em;
+}
+
+div.fondoMXT header.fondoMXT{
+  width: 100%;
+  padding: 0;
+  padding-bottom: 1.5em;
+
+}
+a.trio h2{
+  font-size: 1em;
+  text-align: center;
+}
+h1.mxt{
+  margin-top: 1.5em;
+  margin-right: 28%;
+}
+div.imgEM{
+  float: left;
+
+}
+img.mxt{
+  width: 90%;
+  height: 90%;
+  margin-top: 0;
+  margin-bottom: 1em;
+  float: left;
+}
+a.mxt h2{
+  font-size: 1em;
+  margin-top: 0;
+}
+h1.webs{
+  margin-left: 1em;
+  margin-bottom: 1.2em;
+  font-size: 1.75em;
+}
+}
+
+
+@media (min-width:481px) and (max-width: 640px){
+body.index{
+  background-image: url(../img/index2.jpg);
+}
+body.indexA{
+  background-image: url(../img/index2.jpg);
+}
+body.edu {
+    background: url(../img/eduB2.jpg);
+}
+
+div.Sno{
+  margin-top: 2em;
+}
+
+/*
+ACORDEON
+*/
+nav.menu {/*MARC*/
+    width: 228px;
+    height: 153px;
+}
+
+nav.menu ul {/*tamaño width acordeon*/
+    height: 139px;
+    width: 210px;
+}
+nav.menu ul:before {
+    content: "";
+    top: 60px;
+    width: 216px;
+}
+nav.menu ul:hover:before {
+    color: black;
+}
+div#index, div#biografia, div#agenda, div#contacto, div#galeria, div#media {/*ASI MUESTRA LA IMAGEN*/
+    background:url(../img/acordeon/fa.png);
+    background-size: contain;
+    height: 139px;
+    width: 238px;
+}
+nav.menu ul li {
+    width: 20px;
+    height: 139px;
+}
+nav.menu ul li a {
+    height: 20px;
+    width: 121px;
+}
+nav.menu ul li:hover {
+    width: 45%;
+}
+nav.menu ul li:hover a {
+    text-shadow: 1px 0 0 rgba(0, 0, 0, 0.25);
+    background: #006699;
+    color: #ccc;
+}
+
+/*
+BIOGRAFIA
+*/
+
+div.nombreB{
+  vertical-align: middle;
+}
+h1.nombreB{
+  font-family: 'puente_nuevo_stregular';
+  font-size: 1.8em;
+  text-align: center;
+  margin-top: 1em;
+  margin-left: 1em;
+}
+section.contenedor{
+  display: block;
+  max-width: 90%;
+  margin: 0 auto;
+  padding-top: 0;
+}
+article.edu{
+  margin-right: 0;
+}
+  
+/*
+AGENDA
+*/
+article.agendaAD{
+  width: 90%;
+}
+div.blockAD{
+  margin-bottom: 2em;
+}
+article.agendaAD div.blockAD div.imagenAD{
+  display: block;
+  vertical-align: top;
+  margin: 0 auto;
+  padding-top: 1em;
+}
+article.agendaAD div.blockAD div.imagenAD a img{
+  margin-top: -2em;
+}
+article.agendaA{
+  display: inline-block;
+  float: right;
+  width: 90%;
+}
+article.agendaA div.blockA{
+  background: #FFFFFF;
+  display: block;
+  vertical-align: top;
+  margin: 3em 4em 0 0;
+  width: 85.5%;
+}
+article.agendaA div.titulo{
+  display:none;
+}
+article.agendaA div.blockA{
+  margin: 2em 0 2em 0em;
+  padding: 0.7em;
+}
+article.agendaA div.blockA div.textA p{
+  line-height: 1.4em;
+  font-size: 1em;
+}
+article.agendaA div.blockA div.textA a h3{
+  font-size: 1em;
+}
+
+
+fieldset.audios{
+  display: block;
+  vertical-align: middle;
+  margin: 0 auto;
+}
+
+/*
+VIDEOS
+*/
+fieldset.videos{
+  display: block;
+  vertical-align: middle;
+  margin: 1.5em auto;
+  padding: 1em;
+}
+.caja{
+  margin: 2em auto 3.5em auto;
+}
+
+/*
+ENSEMBLES
+*/
+header.fondoTM{
+  margin-left: 37%;
+  margin-top: 0.5em;
+}
+img.trio{
+  float: none;
+  margin-top: 1em;
+  margin-left: 20%;
+  margin-right: 0;
+}
+div.fondoMXT header.fondoMXT{
+  width: 100%;
+
+}
+a.trio h2{
+  text-align: left;
+}
+h1.mxt{
+  margin-top: 1.5em;
+  margin-right: 33%;
+}
+div.imgEM{
+  float: left;
+
+}
+img.mxt{
+  width: 90%;
+  height: 90%;
+  margin-top: 0;
+  float: left;
+}
+a.mxt h2{
+  margin-top: 0;
+}
+h1.webs{
+  margin-left: 2em;
+  margin-bottom: 1.2em;
+}
+
+
+footer.facebook{
+  margin-top: 8em;
+  margin-bottom: 4em;
+}
+
+}
+
+
+@media (min-width:641px) and (max-width: 960px){
+body.edu {
+    background: url(../img/eduB2.jpg);
+}
+body.index{
+  background-image: url(../img/indexA.jpg);
+}
+body.indexA{
+  background-image: url(../img/indexA.jpg);
+}
+div.Sno{
+  display: none;
+}
+
+div.nombreB{
+  vertical-align: middle;
+  width: 100%;
+}
+h1.nombreB{
+  font-size:2.3em;
+  margin: 0 auto 0.5em auto;
+}
+section.contenedor{
+  float: none;
+  display: block;
+  max-width: 90%;
+  margin: 1em auto;
+  padding-top: 0;
+}
+
+/*
+AGENDA
+*/
+article.agendaAD{
+  display: block;
+  vertical-align: middle;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 3em;
+}
+div.blockAD{
+  background: #FFFFFF;
+  margin: 2em 4em 2em 0;
+  width: 93%;
+  text-align: center;
+}
+article.agendaAD div.blockAD div.imagenAD a img{
+  margin-top: -1.5em;
+  margin-left: 1.6em;
+  text-align: left;
+}
+article.agendaAD div.blockAD div.textA h3{
+  text-align: right;
+}
+article.agendaAD div.blockAD div.textA p{
+    text-align: right;
+}
+article.agendaAD div.blockAD div.textA h4{
+  text-align: right;
+}
+article.agendaAD div.blockAD div.eduN img.no{
+  margin-left: 25%;
+}
+
+article.agendaAD div.blockAD div.eduN{
+  margin-left: 30%;
+}
+article.agendaAD div.blockAD div.textA{
+  text-align: center;
+}
+article.agendaA{
+  margin-top: 2em;
+  width: 90%;
+}
+article.agendaA div.titulo{
+  display:none;
+}
+  
+/*
+BIOGRAFIA
+*/
+section.contenedor{
+  display: block;
+  max-width: 100%;
+  margin: 1em 2em;
+  padding-top: 0;
+}
+  article.edu{
+  margin-right: 0;
+}
+  
+/*
+AUDIOS
+*/
+fieldset.audios{
+  display: block;
+  vertical-align: middle;
+  margin: 0 auto;
+}
+
+/*
+VIDEOS
+*/
+fieldset.videos{
+  display: block;
+  vertical-align: middle;
+  margin: 2em auto;
+}
+.caja{
+  margin: 2em auto 3.5em auto;
+}
+
+footer.facebook{
+  margin-top: 8em;
+  margin-bottom: 4em;
+}
+/*
+ENSEMBLES
+*/
+header.fondoTM{
+  margin-top: 0;
+}
+h1.mxt{
+  margin-right: 10%;
+}
+div.imgE{
+  width: 100%;
+  margin: 0 auto;
+}
+img.mxt{
+  float: none;
+  width: 80%;
+  height: 80%;
+  margin-left: 10%;
+}
+p.uno{
+  margin-top: 2em;
+}
+a.mxt h2{
+  margin-top: 0;
+}
+h1.webs{
+  margin-bottom: 1.2em;
+}
+}
+
+
+@media (min-width:961px) and (max-width: 1025px){
+
+/*
+BIOGRAFIA
+*/
+section.contenedor{
+  display: block;
+  max-width: 90%;
+  margin: 1em auto;
+  padding-top: 0;
+}
+article.edu{
+  margin-right: 0;
+}
+
+h1.nombreB{
+  font-size:3.2em;
+  margin: 0 auto;
+}
+
+/*
+AGENDA
+*/
+article.agendaAD{
+  width: 36%;
+
+}
+div.blockAD{
+  background: #FFFFFF;
+  margin: 0 4em 0 0;
+  width: 90%;
+}
+article.agendaAD div.blockAD div.imagenAD{
+  display: block;
+  vertical-align: middle;
+  margin: 0 auto;
+  padding-top: 1em;
+  float:none;
+}
+
+article.agendaAD div.blockAD div.eduN{
+  display: none;
+}
+article.agendaA{
+  width: 93.5%;
+}
+
+
+/*
+AUDIOS
+*/
+fieldset.audios{
+  display: block;
+  vertical-align: middle;
+  margin: 0 auto;
+}
+
+/*
+VIDEOS
+*/
+fieldset.videos{
+  display: block;
+  vertical-align: middle;
+  margin: 2em auto;
+}
+.caja{
+  margin: 2em auto 3.5em auto;
+}
+
+}
+
+
+@media (min-width:1026px) and (max-width: 1149px){
+
+/*BIOGRAFIA*/
+section.contenedor{
+  display: block;
+  max-width: 90%;
+  padding-top: 0;
+  margin:0 auto;
+}
+article.edu{
+  margin-right: 0;
+}
+h1.nombreB{
+  font-size:3.2em;
+  margin: 0 auto;
+}
+/*
+AUDIOS
+*/
+fieldset.audios{
+  display: block;
+  vertical-align: middle;
+  margin: 0 auto;
+}
+
+/*
+VIDEOS
+*/
+fieldset.videos{
+  display: block;
+  vertical-align: middle;
+  margin: 2em auto;
+}
+
+/*
+AGENDA
+*/
+article.agendaAD{
+  width:36%;
+  margin-left: 3.5%;
+}
+article.agendaAD div.blockAD div.eduN img.no{
+  margin-left: 15%;
+  margin-top: 5%;
+}
+article.agendaA{
+  margin-top: 2em;
+  width: 93.5%;
+}
+}
+
+@media (min-width:1150px) and (max-width: 1279px){
+/*BIORAFIA*/
+section.contenedor{
+  max-width: 46.5%;
+}
+}
+@media (min-width:1280px){
+  section.contenedor{
+    max-width: 51%;
+  }
+}
+@media (min-width:1360px){
+  section.contenedor{
+    max-width: 53%;
+  }
+  fieldset.videos{
+    width: 36%;
+    margin-left: 6.5%;
+  }
+  fieldset.audios{
+    width: 30%;
+    margin-left: 16.5%;
+  }
+}
+@media (min-width:1800px){
+  section.contenedor{
+    max-width: 63%;
+  }
+  fieldset.videos{
+    width: 27%;
+    margin-left: 6.5%;
+  }
+  fieldset.audios{
+    width: 30%;
+    margin-left: 16.5%;
+  }
+  article.agendaAD{
+    margin-left: 13%;
+  }
+  
+}
+
